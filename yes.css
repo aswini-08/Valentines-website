@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#c1121f;
+    animation: blush 5s infinite alternate ease-in-out;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yes{
+    height:500px;
+    width:500px;
+}
+
+@keyframes blush {
+    0% { background-color: #eac4d5; }  
+    50% { background-color: #ff99c8; }  
+    100% { background-color: #fb6f92; }
+}
+
+.header_text{
+    font-size: 34px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.header_text:hover {
+    color: red;
+    transform: scale(1.1);
+}
